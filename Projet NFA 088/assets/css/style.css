@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "LeagueScript" ;
+    src: url(../assets/fonts/LeagueScript.ttf);
+}
+
+/* l'etoile donne ou enlève du style a TOUS les elements */
+* {
+    /* margin: 0;
+    padding: 0;
+    border: 2px solid snow; */
+    color: white;
+}
+
+body {
+    background: rgb(14,0,255);
+background: linear-gradient(204deg, rgba(14,0,255,1) 0%, rgba(24,15,179,1) 22%, rgba(17,12,122,1) 44%, rgba(8,8,45,1) 100%);
+    /* font-family: "HindGuntur-Regular", "poppins-Regular",'segoe UI';
+    background: url(../img/wallpaperflare.com_wallpaper.jpg) center/cover;
+    background-color: rgb(107, 0, 128); */
+/* vh = 100% de la taille de l'ecran (viewport height) */
+    min-height: 1500px;
+    min-height: 100vh;
+    min-width: 50rem;
+
+}
+
+
+
+
+/* FLEXBOX */
+/* sert a repartir equitablement des element sur la page */
+.flexbox ul{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.flexbox li {
+    list-style: none;
+    height: 160px;
+    width: 160px;
+    /* valeur de margin dans le sens horaire */
+    margin: 10px;
+    background: rgba(154, 121, 177, 0.71);
+    /* centrer un unique element verticalement et horizontalement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox{
+
+    left: 30%;
+    right: 30%;
+    top: 0%;
+}
+
+.logo_1 {
+position: absolute;
+    width: 100px;
+    height: 100px;
+
+}
+
+.logo_2 {
+    position: absolute;
+    transform:scaleX(-1) ;
+    width: 100px;
+    height: 100px;
+
+}
+
+header {
+
+    text-align: center;
+}
+
+h1 {
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+
+}
+
+h2 {
+    font-family: "League Script",'segoe UI';
+    font-size: 2rem;
+}
+
+
+
+.edito {
+    position: relative;
+    width: 30rem;
+    top: 12%;
+    left: 0%;
+
+}
+
+footer {
+    text-align: center;
+}
+
+.content-top{
+    padding: 0;
+    display: flex;
+    display: inline-flex;
+    margin: 5px;
+}
+
+/* GRID */
+
+.grid h2{
+    left: 10rem;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.grid img {
+    width: 150px;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "ti ti"
+    "af tx";
+}
+
+/* menu haut de page */
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu li{
+    margin: 5px;
+    padding: 5px;
+}
+.menu a{
+    text-decoration: none;
+    border-radius: 9.5px;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
+/* autre paramettre */
+
+.ML{
+    width: 30rem;
+    text-align: center;
+    top: 2rem;
+ margin: auto;
+    
+}
+
+.PC{
+    width: 30rem;
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    margin: auto;
+}
+
+.corp_PC{
+    height: 50rem;
+    
+}
+
+.PF{
+    position: relative;
+    list-style-type: none; 
+    top: 2rem;
+}
+
+.synopsis{
+width: 60rem;
+}
+
+
+.tableau{
+    margin: auto;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
